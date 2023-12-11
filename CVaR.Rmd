@@ -71,13 +71,17 @@ print(vector)
 ```
 
 ```{python}
+# My name is Martin, and I can run Python code in my own RStudio.
 import numpy as np
 
 vector = np.arange(11)
 print(vector)
-
 ```
 
+```{r}
+# My name is Martin, and I can run R code in my own RStudio.
+seq(0, 10)
+```
 
 
 

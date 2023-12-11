@@ -1,0 +1,19 @@
+# Summary {.unnumbered}
+
+<!-- ```{r global_options, include = FALSE} -->
+
+<!-- knitr::opts_chunk$set(warning = FALSE, message = FALSE) -->
+
+<!-- knitr::opts_chunk$set(fig.pos = "h", out.extra = "") -->
+
+<!-- ``` -->
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+Text in *italics* and **bold**.
+
+@fama1993common includes a great abstract:
+
+This paper identifies five common risk factors in the returns on stocks and bonds. There are three stock-market factors: an overall market factor and factors related to firm size and book-to-market equity. There are two bond-market factors, related to maturity and default risks. Stock returns have shared variation due to the stock-market factors, and they are linked to bond returns through shared variation in the bond-market factors. Except for low-grade corporates, the bond-market factors capture the common variation in bond returns. Most important, the five factors seem to explain average returns on stocks and bonds.

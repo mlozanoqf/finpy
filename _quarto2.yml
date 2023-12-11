@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: out
+
+website:
+  title: "Departamento de Contabilidad y Finanzas. \\linebreak Licenciatura en Finanzas Internacionales. \\linebreak Supervisor: Dr. Martín Lozano. \\linebreak \\linebreak Anteproyecto PEF. \\linebreak \\linebreak \\ **Title.**"
+  author:
+  - Din Grogu
+  - Obi-Wan Kenobi 
+  - Luke Skywalker
+  - Jabba the Hutt
+  date: today
+  date-format: long
+  chapters:
+    - index.qmd
+#    - intro.qmd
+ #   - results.qmd
+  #  - references.qmd
+toc: true
+lof: true
+lot: true
+code-block-border-left: "#d3def2"
+fig-pos: "H"
+#tbl-pos: "H"
+toc-depth: 2
+
+#bibliography: references.bib
+
+format:
+  pdf:
+    documentclass: scrreprt
+    
+# header-includes:
+#   - \usepackage{titling}
+#   - \pretitle{\begin{center}
+#     \includegraphics[width=2in,height=2in]{images/udem.jpg}\LARGE\\}
+#   - \posttitle{\end{center}}
+#   - \usepackage{float}
+#   - \floatplacement{table}{H}
+#  - \AtBeginDocument{\title{School Name\linebreak Annual Exam\linebreak  Mathematics}\author{Mikey Mouse, Grogu, Ashoka}\renewcommand*{\today}{\datefmt{\year}{\month}{\day}}\maketitle}
+
+#editor: visual
+link-citations: true
+
